@@ -1,0 +1,39 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local raw and processed data
+data/raw/*.csv
+data/processed/*
+
+# PostgreSQL local files / dumps
+*.sql.gz
+*.dump
+*.backup
+
+# Power BI local/binary files
+*.pbix
+*.pbit
+*.pbip
+
+# Temporary files
+*.tmp
+*.log
+EOF
