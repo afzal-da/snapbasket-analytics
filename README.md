@@ -1,6 +1,3 @@
-cd ~/SnapBasket-Analytics
-
-cat > README.md <<'EOF'
 # SnapBasket Analytics
 
 End-to-end Business Intelligence and Decision Analytics project built using PostgreSQL and Power BI to transform transactional grocery-order data into actionable commercial and operational insights.
