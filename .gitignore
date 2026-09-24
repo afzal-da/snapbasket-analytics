@@ -37,3 +37,6 @@ data/processed/*
 *.tmp
 *.log
 EOF
+# Root-level dataset artifacts
+/snapbasket_orders_2026.csv
+/snapbasket_orders_2026.html
